@@ -14,3 +14,5 @@ python train.py
 python predict_image.py
 
 4. Video Detection
+Used an external MP4 video for testing, and applied the trained YOLO12n model to continuous images.
+
