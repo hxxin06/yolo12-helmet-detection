@@ -1,7 +1,10 @@
 ultralytics
+torch
+torchvision
 opencv-python
 numpy
 matplotlib
+pandas
+roboflow
+Pillow
 PyYAML
-torch
-torchvision
