@@ -6,10 +6,12 @@ model = YOLO("yolo12n.pt")
 
 model.train(
     data=DATA_YAML,
-    epochs=3,
-    imgsz=640,
-    batch=8,
+    epochs=60,
+    imgsz=960,
+    batch=4,
     device=0,
+    patience=15,
+    workers=4,
     project="runs/helmet_detection",
-    name="yolo12n_test"
+    name="yolo12n_helmet_60epochs_960"
 )
