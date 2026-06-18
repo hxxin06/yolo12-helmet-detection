@@ -51,3 +51,9 @@ The formal training settings are shown below:
 | Batch Size | 4 |
 | Best Model | best.pt |
 
+## Demo Video
+
+The demo video result is provided in this repository:
+
+helmet_video1_result.mp4
+
