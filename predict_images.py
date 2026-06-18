@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
-MODEL_PATH = "runs/detect/runs/helmet_detection/yolo12n_helmet_60epochs_960/weights/best.pt"
-SOURCE_PATH = "Helmet-and-Number-Plate-Detection-for-Motorbike-Safety-3/test/images"
+MODEL_PATH = "weights/best.pt"
+SOURCE_PATH = "test/images"
 
 model = YOLO(MODEL_PATH)
 
