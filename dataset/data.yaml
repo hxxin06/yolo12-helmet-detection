@@ -1,0 +1,11 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 4
+
+names:
+  0: rider
+  1: helmet
+  2: no_helmet
+  3: number_plate
